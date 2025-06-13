@@ -51,6 +51,13 @@ The dataset used is the classic **Boston Housing Dataset**, which contains infor
 
 ![App Screenshot](Screenshot_ap.png)
 
+---
+
+## 🚀 Live Demo
+
+🔗 [Click here to use the app](https://boston-house-price-predictor-ai1b.onrender.com)
+
+
 
 ## ⚙️ How to Run Locally
 
