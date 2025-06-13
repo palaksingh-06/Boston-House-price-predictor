@@ -10,7 +10,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 # Load and preprocess Boston dataset (just for column names here)
 data_url = "http://lib.stat.cmu.edu/datasets/boston"
-raw_df = pd.read_csv(data_url, sep="\s+", skiprows=22, header=None)
+raw_df = pd.read_csv(data_url, sep=r"\s+", skiprows=22, header=None)
 X = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])
 columns = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE',
            'DIS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT']
@@ -28,4 +28,5 @@ def predict():
     return render_template('index.html', columns=columns, prediction=round(prediction, 2))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
+
