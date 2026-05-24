@@ -1,10 +1,10 @@
-# 🏡 Boston House Price Prediction Web App
+# Boston House Price Prediction Web App
 
 This is a simple **Machine Learning-powered web application** built using **Flask** to predict **house prices in Boston** based on various features from the Boston Housing dataset.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset used is the classic **Boston Housing Dataset**, which contains information collected by the U.S Census Service concerning housing in the area of Boston, Massachusetts.
 
@@ -28,7 +28,7 @@ The dataset used is the classic **Boston Housing Dataset**, which contains infor
 
 ---
 
-## 🚀 Features
+## Features
 
 - User-friendly input form with tooltips and placeholders
 - Dynamic prediction of house prices
@@ -37,7 +37,7 @@ The dataset used is the classic **Boston Housing Dataset**, which contains infor
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Flask
@@ -47,19 +47,19 @@ The dataset used is the classic **Boston Housing Dataset**, which contains infor
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![App Screenshot](Screenshot_ap.png)
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 🔗 [Click here to use the app](https://boston-house-price-predictor-ai1b.onrender.com)
 
 
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 1. Clone the repository:
    ```bash
